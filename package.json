@@ -1,0 +1,45 @@
+{
+  "name": "redux-store",
+  "version": "0.0.0",
+  "description": "a redux all-in-one class for actions, stores, and state",
+  "homepage": "https://github.com/bingomanatee/redux-store",
+  "author": {
+    "name": "David Edelhart",
+    "email": "dave@wonderlandlabs.com",
+    "url": "http://www.wonderlandlabs.com"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "keywords": [
+    "redux",
+    "store"
+  ],
+  "repository": "bingomanatee/redux-store",
+  "devDependencies": {
+    "babel-core": "^5.5.0",
+    "del": "^2.0.2",
+    "gulp": "^3.6.0",
+    "gulp-babel": "^5.1.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^0.9.0",
+    "gulp-mocha": "^2.0.0",
+    "gulp-nsp": "^2.1.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-tape": "0.0.6",
+    "isparta": "^3.0.3",
+    "tap": "^2.3.1",
+    "tap-colorize": "^1.2.0",
+    "tape": "^4.2.2"
+  },
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "license": "BSD-2-Clause-FreeBSD",
+  "dependencies": {
+    "redux": "^3.0.4"
+  }
+}
